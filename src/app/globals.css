@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .my-custom-swiper2 {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+  }
+
+  .my-custom-swiper2 .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .ourTeam {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+  }
+
+  .ourTeam .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+
+  .testimonial-swiper {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    background-color: transparent !important;
+  }
+
+  .testimonial-swiper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: transparent !important;
+  }
