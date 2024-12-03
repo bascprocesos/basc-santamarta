@@ -5,8 +5,8 @@ import { structureTool } from "sanity/structure";
 import { schema } from "./src/sanity/schema";
 
 export default defineConfig({
-  name: "civil-registry",
-  title: "Civil Registry",
+  name: "basc-santamarta",
+  title: "Basc Santa Marta",
   basePath: "/studio",
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "",
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
